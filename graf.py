@@ -1,5 +1,6 @@
 import requests
 import sys
+import time
 
 TOKEN = 'ТОКЕН с docs,messages,offline' #asd7a6f78sd78fsd7v678dcf67s8z6c7s89g7sd98f678a6df7ats56d4asd2as45f5a
 MYID = 'ID страницы' #473589345
