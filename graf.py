@@ -56,7 +56,7 @@ def load_image(path):
 
 if __name__ == '__main__':
 	if len(sys.argv) < 3:
-		print('Нужно указать 2 параметра:\ngraf.py путь_к_вайлу_png id_беседы\ngraf.py test.png 123')
+		print('Нужно указать 2 параметра:\ngraf.py путь_к_файлу_png id_беседы\ngraf.py test.png 123')
 		exit()
 	doc = load_image(sys.argv[1])
 	request('messages.send', {'chat_id': sys.argv[2], 'attachment': doc})
